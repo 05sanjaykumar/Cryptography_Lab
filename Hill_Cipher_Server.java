@@ -50,6 +50,9 @@ public class Hill_Cipher_Server {
 
         out.println(encrypted);
 
+        ss.close();
+        sc.close();
+
 
 
     }
